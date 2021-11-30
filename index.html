@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styly.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="block">
+        <h1 class="block_h1">Прогноз погоды</h1>
+        <div class="inputs">
+            <input placeholder=" Найти..." type="text" class="input_s">
+            <button class="input_btn">Найти</button>
+        </div>
+        <h2 class="text_h2"></h2>
+        <div class="bottom_text">
+            <h2>Погода в <span id="city"></span> </h2>
+            <span id="temp"></span>
+            <img id="img" src="" alt="">
+            <div class="text_p">
+                <p id="degree"></p> 
+                <p>Влажность: <span id="humidity"></span> </p>
+                <p>Скорость ветра: <span id="speed"></span></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="./weather.js"></script>
+</body>
+
+</html>
